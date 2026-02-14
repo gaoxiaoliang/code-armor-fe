@@ -3,7 +3,7 @@ import pinia from '../stores/pinia'
 import { useAuthStore } from '../stores/auth'
 import { useUiStore } from '../stores/ui'
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080'
+const API_BASE_URL = ''
 
 type ApiError = {
   code?: string
